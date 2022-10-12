@@ -42,3 +42,7 @@ button{
     padding-left: 50%;
     padding-right: 50%;
 }
+
+#container {
+    visibility: hidden;
+}

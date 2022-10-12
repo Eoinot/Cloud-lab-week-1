@@ -30,3 +30,13 @@ const gracefulShutdown = () => {
 process.on('SIGINT', gracefulShutdown);
 process.on('SIGTERM', gracefulShutdown);
 process.on('SIGUSR2', gracefulShutdown); // Sent by nodemon
+
+
+ej.base.enableRipple(true);
+
+var button = new ej.buttons.Button({cssClass: 'e-link'});
+button.appendTo('#element');
+
+button.element.onclick = function () {
+    window.open("https://github.com/Eoinot");
+}
