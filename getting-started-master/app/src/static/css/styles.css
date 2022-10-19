@@ -39,7 +39,8 @@ button:focus {
 }
 
 button{
-    padding-left: 50%;
-    padding-right: 50%;
+    display:flex;
+    justify-content: center;
+
 }
 
