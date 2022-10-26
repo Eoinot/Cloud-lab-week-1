@@ -12,7 +12,7 @@ services:
        MYSQL_DB: todos
 
   app2:
-     image: getting-started
+     image: getting-started2
      ports:
        - 3000:3000
      environment:
